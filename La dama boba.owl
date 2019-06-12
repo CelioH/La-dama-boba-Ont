@@ -1,0 +1,1413 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ana/ontologies/2018/10/damaboba#"
+     xml:base="http://www.semanticweb.org/ana/ontologies/2018/10/damaboba"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:frbr="http://iflastandards.info/ns/fr/frbr/frbrer/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:damaboba="http://www.semanticweb.org/ontologies/2018/10/damaboba#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba/1.0"/>
+        <rdfs:comment xml:lang="es">Ontología sobre la transmisión e influencias de la comedia &quot;La dama boba&quot; de Lope de Vega</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#InfluyeA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#InfluyeA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esInfluidoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#cambiaA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#cambiaA">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esCambiadoPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#creadaPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#creadaPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#creadoraDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#creadoraDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#creadoraDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esAdaptacionDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esAdaptacionDe">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneAdaptacion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esBasePara -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esBasePara">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esCambiadoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esCambiadoPor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esInfluidoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esInfluidoPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esMateriaDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esMateriaDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esMaterializacionDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esMaterializacionDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#materializadaMediante"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esProductoraDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esProductoraDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#producidaPor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esPropiedadDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esPropiedadDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esPropietariaDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esPropietariaDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esPropietariaDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esRealizacionDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esRealizacionDe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#realizadaMediante"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esReproduccionDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esReproduccionDe">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneReproduccion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esSucedidoPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esSucedidoPor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esSucesoraDe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#esSucesoraDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#esSucesoraDe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#materializadaMediante -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#materializadaMediante">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#producidaPor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#producidaPor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#realizadaMediante -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#realizadaMediante">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneAdaptacion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneAdaptacion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneReproduccion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneReproduccion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Fecha -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Fecha"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:EntidadCorporativa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:EntidadCorporativa">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Expresion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Expresion">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Manifestacion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Manifestacion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Obra -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Obra">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Persona -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Persona"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Acteatro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Acteatro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Aguilar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Aguilar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#AguilarPiñal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#AguilarPiñal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#AntonioGuirau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#AntonioGuirau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Artelope -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Artelope">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Cervantesvirtual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#AulaTeatroPinosPuente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#AulaTeatroPinosPuente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esCambiadoPor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Bologna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Bologna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionPROLOPE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CDEspGuerrero-DiazDeMendoza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDEspGuerrero-DiazDeMendoza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esSucesoraDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDMGuerrero/FDiazDeMendoza"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#SuñerCasademunt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CNTC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CNTC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Mayorga"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CTAndresDeClaramonte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CTAndresDeClaramonte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CTMariaGuerrero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CTMariaGuerrero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CarmenCobeña -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CarmenCobeña">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Crespo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CasaMGuerrero-DiazMendoza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CasaMGuerrero-DiazMendoza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#14/06/19"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla-MGuerrero"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroDeLaPrincesa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Guerrero,Maria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CentroDramaticoElvira -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CentroDramaticoElvira">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Cervantesvirtual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Cervantesvirtual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#ZamoraVicente"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Cine-TV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Cine-TV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Representaciones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CopiaBNE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CopiaBNE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CopiaParma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CopiaParma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esReproduccionDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionMadrid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CorralOlivera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CorralOlivera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Cotarelo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Cotarelo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Crespo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Crespo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#DiezBorque -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#DiezBorque">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionBarcelona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionBarcelona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#ParteIX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esReproduccionDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionMadrid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionMadrid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionMadrid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#ParteIX"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionPROLOPE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionPROLOPE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#ParteIX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#EscuelaBasauri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EscuelaBasauri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#EspacioImaginado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EspacioImaginado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#FTJuventudEuropeo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#FTJuventudEuropeo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#FraguaSueños -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#FraguaSueños">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#GTBueroVallejo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#GTBueroVallejo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#GarciaLorca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#GarciaLorca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Gonmejo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Gonmejo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Guerrero-Romeu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Guerrero-Romeu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Hartzenbusch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Hartzenbusch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#JCNTC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#JCNTC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#LaCalderona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaCalderona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#LaDamaBoba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaDamaBoba">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#creadaPor"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#VegaCarpio,LopeDe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#LaEsfera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaEsfera"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#LaPalma-Reig -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaPalma-Reig">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Lisboa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Lisboa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esMaterializacionDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Madrid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Madrid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esMaterializacionDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#ManeroBayarri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ManeroBayarri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#ManriqueDeVedia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ManriqueDeVedia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#ManuelIborra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ManuelIborra">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Cine-TV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#MargaritaXirgu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#MargaritaXirgu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#GarciaLorca"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Marin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Marin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Mayorga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Mayorga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Mic1997 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Mic1997">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Micomicon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Mic2012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Mic2012">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Micomicon"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Micomicon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Micomicon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Montiel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Montiel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#MuñecoMGuerrero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#MuñecoMGuerrero">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esReproduccionDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Guerrero,Maria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#MuñecosTrapo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#MuñecosTrapo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#05/07/19"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#MuñecoMGuerrero"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Galvan,Francisco"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#ND1989 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ND1989">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#NavarroDuran"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#ND2001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#ND2001 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ND2001">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#NavarroDuran"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#NavarroDuran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#NavarroDuran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#ParteIX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ParteIX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#PedrazaJimenez -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedrazaJimenez">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#cambiaA"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#PerezMinnocci -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#PerezMinnocci">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#PieIzquierdo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#PieIzquierdo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Pleito1616LV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Pleito1616LV">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#InfluyeA"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#ParteIX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Rep1997 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Rep1997">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Replika"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Rep2010 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Rep2010">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Replika"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Replika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Replika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Representaciones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Representaciones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaDamaBoba"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#SantaellaLopez -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SantaellaLopez">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Schevill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Schevill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Segovia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Segovia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esMaterializacionDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla-MGuerrero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla-MGuerrero">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDMGuerrero/FDiazDeMendoza"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#tieneComoMateria"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Guerrero,Maria"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBMM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBMM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBNE1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBNE1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBNE2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBNE2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#SuñerCasademunt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SuñerCasademunt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#TESO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TESO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Representaciones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroDeLaPrincesa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroDeLaPrincesa">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroMariaGuerrero"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroEstableCastellano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroEstableCastellano">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroMariaGuerrero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroMariaGuerrero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaDamaBoba"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaDamaBoba"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Tolsada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Tolsada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#ZamoraVicente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ZamoraVicente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#05/07/19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#05/07/19">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaEsfera"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#14/06/19"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#14/06/19 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#14/06/19">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaEsfera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CCDJMontenegro/MVigo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CCDJMontenegro/MVigo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#seBasaEn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Gonmejo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CDCCobeña/JTallavi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDCCobeña/JTallavi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#CDMGuerrero/FDiazDeMendoza -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDMGuerrero/FDiazDeMendoza">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Teatro"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esBasePara"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla-MGuerrero"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Estudio1/69 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Estudio1/69">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Cine-TV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Estudio1/80 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Estudio1/80">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Cine-TV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Galvan,Francisco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Galvan,Francisco">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#creadoraDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#MuñecoMGuerrero"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Guerrero,Maria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Guerrero,Maria">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esProductoraDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDEspGuerrero-DiazDeMendoza"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esProductoraDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDMGuerrero/FDiazDeMendoza"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esPropietariaDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla-MGuerrero"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#esPropietariaDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroDeLaPrincesa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla,Joaquin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla,Joaquin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#creadoraDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla-MGuerrero"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#VegaCarpio,LopeDe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#VegaCarpio,LopeDe">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#creadoraDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaDamaBoba"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#creadoraDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Pleito1616LV"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo">
+        <damaboba:Fecha rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1613</damaboba:Fecha>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2018/10/damaboba#AutografoLV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#AutografoLV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo"/>
+        <damaboba:Fecha rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1613</damaboba:Fecha>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Acteatro"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#AntonioGuirau"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#AulaTeatroPinosPuente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDEspGuerrero-DiazDeMendoza"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CNTC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CTAndresDeClaramonte"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CTMariaGuerrero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CarmenCobeña"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CentroDramaticoElvira"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CorralOlivera"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EscuelaBasauri"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EspacioImaginado"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#FTJuventudEuropeo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#FraguaSueños"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#GTBueroVallejo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#JCNTC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaCalderona"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaPalma-Reig"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#MargaritaXirgu"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Micomicon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedroDeValdes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#PieIzquierdo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Replika"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroEstableCastellano"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDCCobeña/JTallavi"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CDMGuerrero/FDiazDeMendoza"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Aguilar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#AguilarPiñal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Autografo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CopiaBNE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#CopiaParma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Cotarelo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#DiezBorque"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Hartzenbusch"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ManriqueDeVedia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Marin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Montiel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#NavarroDuran"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ParteIX"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#PedrazaJimenez"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#PerezMinnocci"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SantaellaLopez"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Schevill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBL"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBMM"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBNE1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#SueltaBNE2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TESO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Tolsada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ZamoraVicente"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionBarcelona"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionMadrid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#EdicionPROLOPE"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaDamaBoba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#LaEsfera"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#MuñecoMGuerrero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Pleito1616LV"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla-MGuerrero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TeatroMariaGuerrero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Galvan,Francisco"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Guerrero,Maria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Sorolla,Joaquin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#VegaCarpio,LopeDe"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Lisboa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Madrid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Segovia"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#ManuelIborra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Estudio1/69"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Estudio1/80"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Representaciones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#Textos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#TextosVersionados"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:EntidadCorporativa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Expresion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Manifestacion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Obra"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2018/10/damaboba#frbr:Persona"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
